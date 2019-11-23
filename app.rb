@@ -5,7 +5,7 @@ class App < Sinatra::Base
     erb :reverse
   end
 
-  post '/reversed' do
+  post '/reverse' do
     erb :reversed
   end
 
